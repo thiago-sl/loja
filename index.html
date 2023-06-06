@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Roupas e Multimarcas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="imagens/favicon-16x16.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="estilos/family.css" rel="stylesheet">
+    <link href="estilos/bootstra.min.css" rel="stylesheet">
+    <link href="estilos/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-secondary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-secondary me-2"></small><img src="imagens/localidade.png">
+                    <small>Sobradinho -DF</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="far fa-clock text-secondary me-3"></small>
+                    <small>Seg-Sab : de 09.00 até 19:00</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-secondary me-2"></small><img src="imagens/phone-call1.png"width="15px">
+                    <small>(61) xxxxx-xxxxx</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-1 border-end border-secondary" href="" target="_blank"><i class="fab fa-whatsapp"></i><img src="imagens/whatsapp.png"></a>
+                    <a class="btn btn-square btn-link rounded-0 border-1 border-end border-secondary" href="facebooç" target="_blank"><i class="fab fa-github"></i><img src="imagens/facebook.png"></a>
+                    <a class="btn btn-square btn-link rounded-0 border-1 border-end border-secondary" href="link" target="_blank"><i class="fab fa-linkedin-in"></i><img src="imagens/email.png"></a>
+                    <a class="btn btn-square btn-link rounded-0" href="instagran" target="_blank"><i class="fab fa-instagram"></i><img src="imagens/instagram1.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="#pecas" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5"><img src="imagens/coracao.png"width="40px">
+            <h2 class="m-0"><i class="fa fa-bicycle text-secondary me-2"></i>Multimarcas e Roupas</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#aaaa" class="nav-item nav-link active">Início</a>
+                <a href="#sobre" class="nav-item nav-link">Sobre</a>
+                <a href="#Pecas" class="nav-item nav-link">Roupas</a>
+                <a href="#Fale" class="nav-item nav-link">Fale Conosco</a>
+            </div>
+            <a href="#Pecas" class="btn btn-secondary py-4 px-lg-5 d-none d-lg-block">Compre agora<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img class="w-100" id="aaaa" src="imagens/MARCAS.jpg"   alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 text-light mb-5 animated slideInDown" >As melhores marcas</h1>
+                                    <a href="" class="btn btn-secondary py-sm-3 px-sm-5">Veja aqui</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+0                    <img class="w-100" src="imagens/Marcas-de-Roupas-8.webp "  alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 text-light mb-5 animated slideInDown">Os melhores preços</h1>
+                                    <a href="" class="btn btn-secondary py-sm-3 px-sm-5">Compre já!</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 p-4" style="min-height: 150px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square bg-dark"><img src="imagens/carinho.png">
+                                <i class="fa fa-bicycle text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5>Roupas baratas e boas </h5>
+                                <span>Tudo que você precisar para renova seu guarda roupa !</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 p-4" style="min-height: 150px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square bg-dark"><img src="imagens/encomenda.png">
+                                <i class="fa fa-users text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5>Encomende sua peça de roupa</h5>
+                                <span>Caso não encontre o que deseja, é so encomendar!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 p-4" style="min-height: 150px;">
+                       
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square bg-dark"> <img src="imagens/todos estilos.png">
+                                <i class="fa fa-file-alt text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5>Roupas boas para todos estilos</h5>
+                                <span>Se houver algum problema com qual peça de roupa comprada, você tem 1 mês após a compra para trocar!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100" src="imagens/loja.jpg" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="imagens/loja.jpg" alt="" style="width: 200px; height: 200px;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h6 class="text-secondary text-uppercase mb-2" id="sobre">Sobre</h6>
+                        <h1 class="display-6 mb-4">Renove seu guarda roupa na Multi Marcas Roupas </h1>
+                        <p>Aqui você irá encontrar as melhores peças para deixar seu guarda roupa como quer, mmultimarcas oferece preços ótimos, além de um papo divertido enquanto você escolhe!
+                        </p>
+                        <p class="mb-4">Entregamos no mesmo dia, frete grátis para todo Sobradinho2 e garantia sempre!</p>
+                        <div class="row g-2 mb-4 pb-2">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-secondary me-2"></i>Melhores preços
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-secondary me-2"></i>Entrega rápida
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-secondary me-2"></i>Melhores roupas 
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-secondary me-2"></i>Melhor papo
+                            </div>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-sm-6">
+                                <a class="btn btn-secondary py-3 px-5" href="">Compre agora</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a class="d-inline-flex align-items-center btn btn-outline-dark border-2 p-2" href="tel:+0123456789">
+                                    <span class="flex-shrink-0 btn-square bg-dark "> <img src="imagens/contato.png">
+                                        <i class="fa fa-phone-alt text-white"></i>
+                                    </span>
+                                   
+                                    <span class="px-3"> (61) xxxxx-xxxxx</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>/
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl courses my-6 py-6 pb-0">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h6 class="text-secondary text-uppercase mb-2" id="Pecas">Confira nossas roupas</h6>
+                <h1 class="display-6 mb-4">Nova coleção com roupas exclusivas</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6/ wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                          
+                            <div class="position-relative mt-auto">
+                                <img class="img-fluid" src="imagens/polo 1.jpg" alt="">
+                                <div class="courses-overlay">
+                                    <a class="btn btn-outline-secondary border-2" href="">Comprar</a>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="d-inline-block bg-secondary text-white fs-5 py-1 px-4 mb-4">R$179,99</div>
+                            <h5 class="mb-3">COMENTARIOS</h5>
+                            <p>COMENTARIOS </p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-secondary me-2"></i>Em estoque</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-secondary me-2"></i>1 mês de garantia</li>
+                            </ol>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+
+                            <div class="position-relative mt-auto">
+                                <img class="img-fluid" src="imagens/polo 1.jpg" alt="">
+                                <div class="courses-overlay">
+                                    <a class="btn btn-outline-secondary border-2" href="">Comprar</a>
+                                </div>
+                            </div><br>
+                            <div class="d-inline-block bg-secondary text-white fs-5 py-1 px-4 mb-4">R$139,99</div>
+                            <h5 class="mb-3">COMENTARIOS</h5>
+                            <p>COMENTARIOS </p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-secondary me-2"></i>Em estoque</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>1 mês de garantia</li>
+                            </ol>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+
+                            <div class="position-relative mt-auto">
+                                <img class="img-fluid" src="imagens/polo 1.jpg" alt="">
+                                <div class="courses-overlay">
+                                    <a class="btn btn-outline-secondary border-2" href="">Comprar</a>
+                                </div>
+                            </div><br>
+                            <div class="d-inline-block bg-secondary text-white fs-5 py-1 px-4 mb-4">R$90</div>
+                            <h5 class="mb-3">COMENTARIOS</h5>
+                            <p>COMENTARIOS.</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-secondary me-2"></i>Em estoque</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-secondary me-2"></i>1 mês de garantia</li>
+                            </ol>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="position-relative mt-auto">
+                                <img class="img-fluid" src="imagens/polo 1.jpg" alt="">
+                                <div class="courses-overlay">
+                                    <a class="btn btn-outline-secondary border-2" href="">Comprar</a>
+                                </div>
+                            </div><br>
+                            <div class="d-inline-block bg-secondary text-white fs-5 py-1 px-4 mb-4">R$29,99</div>
+                            <h5 class="mb-3">COMENTARIOS</h5>
+                            <p>COMENTARIOS.</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-secondary me-2"></i>Em estoque</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-secondary me-2"></i>1 mês de garantia</li>
+                            </ol>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="position-relative mt-auto">
+                                <img class="img-fluid" src="imagens/polo 1.jpg" alt="">
+                                <div class="courses-overlay">
+                                    <a class="btn btn-outline-secondary border-2" href="">Comprar</a>
+                                </div>
+                            </div><br>
+                            <div class="d-inline-block bg-secondary text-white fs-5 py-1 px-4 mb-4">$17,99</div>
+                            <h5 class="mb-3">COMENTARIOS</h5>
+                            <p>COMENTARIOS.</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-secondary me-2"></i>Em estoque</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-secondary me-2"></i>1 mês de garantia</li>
+                            </ol>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="position-relative mt-auto">
+                                <img class="img-fluid" src="imagens/polo 1.jpg" alt="">
+                                <div class="courses-overlay">
+                                    <a class="btn btn-outline-secondary border-2" href="">Comprar</a>
+                                </div>
+                            </div><br>
+                            <div class="d-inline-block bg-secondary text-white fs-5 py-1 px-4 mb-4">R$13,00</div>
+                            <h5 class="mb-3">COMENTARIOS</h5>
+                            <p>COMENTARIOS</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-secondary me-2"></i>Em estoque</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-secondary me-2"></i>1 mês de garantia</li>
+                            </ol>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-8 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-secondary text-center p-5">
+                        <h1 class="mb-4" id="Fale">Faça sua emcomenda</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name">
+                                        <label for="gname">Seu nome</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email">
+                                        <label for="gmail">Número para contato</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
+                                        <label for="cname">Qual roupa deseja?</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0" id="cage" placeholder="Child Age">
+                                        <label for="cage">Qual o tamanho da roupa?</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Alguma observação?</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Encomendar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Courses End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-2">Caso prefira, iremos ate voce!</h6>
+                    <h1 class="display-6 mb-4">As melhores roupas para deixar seu guarda roupa renovado!</h1>
+                    <p class="mb-5">Multi Marcas garante que as roupas serão como desejadas e ainda ajuda no preço!</p>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-secondary me-3"> <img src="imagens/moedas.png">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Bom preço</h5>
+                            </div>
+                            <span>Melhores preços da Brasilia!</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-secondary me-3">
+                                    <i class="fa fa-check text-white"></i><img src="imagens/etiqueta.png">
+                                </div>
+                                <h5 class="mb-0">Ótimas Roupas</h5>
+                            </div>
+                            <span>As melhores roupas de brasilia!</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-secondary me-3"><img src="imagens/confiavel.png">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Confiável</h5>
+                            </div>
+                            <span>Multimarcas tem garantia para todas as peças!</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-secondary me-3">
+                                    <i class="fa fa-check text-white"></i><img src="imagens/pagamentos.png">
+                                </div>
+                                <h5 class="mb-0">Várias formas de pagamento</h5>
+                            </div>
+                            <span>Pix, dinheiro ou cartão, o que você preferir!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100" src="imagens/loja.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-light footer my-6 mb-0 py-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Sempre compre aqui!</h4>
+                    <h2 class="text-secondary mb-4"><i class="fa fa-bicycle text-white me-2"></i>Multimarcas roupas</h2>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sobradinho - DF</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(61) XXXXXX-XXXXXX/p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>tsouzalima08@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-light bg-dark py-4 wow fadeIn"height=" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">Multimarcas Roupas</a>, Todos os Direitos Reservados.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a href="https://htmlcodex.com">Thiago souza lima</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-secondary border-white btn-lg-square back-to-top"><img src="imagens/seta.png"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+
+    <!-- Template Javascript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
